@@ -48,10 +48,10 @@ npm start
 ### Docker Commands
 ```bash
 # Build image
-docker build -t nodejs-demo-app .
+docker build -t nodejs-project-1 .
 
 # Run container
-docker run -p 3000:3000 nodejs-demo-app
+docker run -p 3000:3000 nodejs-project-1
 
 # Access application
 curl http://localhost:3000
@@ -72,10 +72,6 @@ Add these secrets in GitHub Repository Settings → Secrets and variables → Ac
 4. Monitor pipeline execution
 5. Verify Docker image on DockerHub
 
-## 📸 Screenshots
-- Add screenshots of successful pipeline runs
-- Add screenshot of DockerHub image
-
 ## 🎯 Learning Outcomes
 - Understanding CI/CD automation
 - GitHub Actions workflow configuration
@@ -83,8 +79,3 @@ Add these secrets in GitHub Repository Settings → Secrets and variables → Ac
 - Automated testing integration
 - Secrets management
 
-## 👨‍💻 Author
-[Your Name] - DevOps Internship Task 1
-
-## 📅 Date
-[Current Date]# CI/CD Pipeline Active
